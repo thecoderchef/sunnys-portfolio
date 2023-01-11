@@ -1,0 +1,92 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    /* color: #fff; */
+    text-decoration: none;
+  }
+
+  .btn-port {
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    width: max-content;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    /* margin: 10px; */
+    /* padding: 15px 45px; */
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px; */
+    border-radius: 10px;
+    display: block;
+ 
+}
+
+.btn-port:hover {
+    background-position: right center; /* change the direction of the change here */
+    /* color: #fff; */
+    text-decoration: none;
+    /* background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent; */
+}
+
+/* .btn-primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+} */
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ============== */
+
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    
+  }
+  
+  /* ================ MEDIA QUERIES (SMALL DEVICES) ============== */
+  
+  @media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+  
+  }
