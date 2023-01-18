@@ -34,7 +34,7 @@ const data = [
     id: 3,
     // image: AVTR3,
     client_name: 'Ayobami Adekola',
-    client_review: 'Sunny is an expert in frontend development, working with her to development my site was an intersting experience. Definitely recommend.  . '
+    client_review: 'Sunny is an expert in frontend development, working with her to develop my site was an intersting experience. Definitely recommend.  . '
   },
 
   {
@@ -42,7 +42,15 @@ const data = [
     // image: AVTR4,
     client_name: 'Busola Olubiyi',
     client_review: 'Sunny can ensure the technical feasibility of UI/UX designs by creating reusable code and libraries, working with her to bring my website to life was a good experience.'
+  },
+
+  {
+    id: 5,
+    // image: AVTR4,
+    client_name: 'Foza',
+    client_review: 'Working with Sunny was better than expected and we had really high expectations. She is an incredibly talented developer but what really makes her stand out is her work ethic and steady approach to enhance and improve our product.'
   }
+
 ]
 
 const Testimonials = () => {
