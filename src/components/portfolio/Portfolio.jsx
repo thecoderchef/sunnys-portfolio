@@ -8,38 +8,16 @@ import './portfolio.css'
 // import IMG6 from '../../assets/portfolio6.jpg'
 import FYLO from '../../assets/fylo-portfolio.png'
 import CARDS from '../../assets/cards-portfolio.png'
-import COUNTER from '../../assets/counter.png'
-import FLIPPER from '../../assets/colorFlipper.png'
+// import COUNTER from '../../assets/counter.png'
+import INNOVFIDE from '../../assets/innovfide.png'
+
+import LCPORTAL from '../../assets/lcportal.png'
 import SENDFUNDS from '../../assets/sendFunds.png'
 import TODO from '../../assets/todoApp.png'
 
 const data = [
   {
     id: 1,
-    image: CARDS,
-    title: 'Expanding Cards',
-    github: 'https://github.com/thecoderchef/Expanding_cards',
-    demo: 'https://expandingcardsbythecodrchef.netlify.app//',
-  },
-
-  {
-    id: 2,
-    image: COUNTER,
-    title: 'Counter',
-    github: 'https://github.com/thecoderchef/counterjs',
-    demo: 'https://counterbythecoderchef.netlify.app/',
-  },
-
-  {
-    id: 3,
-    image: FLIPPER,
-    title: 'Color Flipper',
-    github: 'https://github.com/thecoderchef/color-flipper',
-    demo: 'https://task-color-flipper.netlify.app/',
-  },
-
-  {
-    id: 4,
     image: FYLO,
     title: 'Fylo Landing Page',
     github: 'https://github.com/thecoderchef/Fylo-landing-page',
@@ -47,20 +25,52 @@ const data = [
   },
 
   {
+    id: 2,
+    image: TODO,
+    title: 'Todo Dashboard',
+    github: 'https://github.com/thecoderchef/todoapp',
+    // demo: 'https://sunny-fylo-landing-page.netlify.app/',
+  },
+
+  {
+    id: 3,
+    image: CARDS,
+    title: 'Expanding Cards',
+    github: 'https://github.com/thecoderchef/Expanding_cards',
+    demo: 'https://expandingcardsbythecodrchef.netlify.app//',
+  },
+
+
+  {
+    id: 4,
+    image: INNOVFIDE,
+    title: 'Innovfide Dashboard',
+    github: 'https://github.com/thecoderchef/innovfide-1',
+    // demo: 'https://counterbythecoderchef.netlify.app/',
+  },
+  
+  
+ 
+
+  {
     id: 5,
+    image: LCPORTAL,
+    title: 'LC Portal',
+    // github: 'https://github.com/thecoderchef/color-flipper',
+    // demo: 'https://task-color-flipper.netlify.app/',
+  },
+
+  
+
+  {
+    id: 6,
     image: SENDFUNDS,
     title: 'Funds Transfer Dashboard',
     // github: 'https://github.com/thecoderchef/Fylo-landing-page',
     demo: 'https://send-funds.netlify.app/',
   },
 
-  {
-    id: 6,
-    image: TODO,
-    title: 'Todo Dashboard',
-    github: 'https://github.com/thecoderchef/todoapp',
-    // demo: 'https://sunny-fylo-landing-page.netlify.app/',
-  },
+ 
 ]
 const Portfolio = () => {
   return (
