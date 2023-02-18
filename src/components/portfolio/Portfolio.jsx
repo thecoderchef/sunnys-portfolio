@@ -67,7 +67,8 @@ const data = [
     image: SENDFUNDS,
     title: 'Funds Transfer Dashboard',
     // github: 'https://github.com/thecoderchef/Fylo-landing-page',
-    demo: 'https://send-funds.netlify.app/',
+    // demo: 'https://send-funds.netlify.app/',
+    demo: 'https://sunnysfundstransfer.netlify.app/',
   },
 
  
